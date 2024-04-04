@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beställningsformulär</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../Style/Style.css">
+</head>
+
+<body id="bodyBackground">
+    <div class="container"> 
+    <h1 class="display-1 text-center">VG-Store</h1>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Order</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandme"
+            aria-controls="expandme" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="expandme">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+        </div>
+    </nav>
+    <div class="d-flex align-items-center justify-content-center">
+        <div class="col-md-8 m-5 p-5 bg-light">
+            <form action="" id="getForm">
+                <div class="form-group">
+                    <label class="col-md-6 control-label">Namn</label>
+                    <div class="col-md-6">
+                        <input name="name" placeholder="Förnamn Efternamn" class="form-control" type="text" id="name"
+                            required>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-6 control-label">E-Mail</label>
+                    <div class="col-md-6">
+                        <input name="email" placeholder="mail@example.com" class="form-control" type="email" id="email"
+                            required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-6 control-label">Telefon</label>
+                    <div class="col-md-6">
+                        <input name="phone" placeholder="0700000000" class="form-control" type="text" id="phone"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-6 control-label">Adress</label>
+                        <div class="col-md-6">
+                            <input name="address" placeholder="Adress" class="form-control" type="text" id="address"
+                                required>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-6 control-label">Stad</label>
+                        <div class="col-md-6">
+                            <input name="city" placeholder="Stad" class="form-control" type="text" id="city" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-6 control-label">Postnummer</label>
+                        <div class="col-md-6">
+                            <input name="zip" placeholder="12345" class="form-control" type="text" id="zip" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-6 control-label"></label>
+                        <div class="col-md-6">
+                            <button type="submit" class="btn btn-success" id="submit">Submit & Order</button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="../JavaScript/form.js"></script>
+
+</div>
+</body>
+
+</html>
