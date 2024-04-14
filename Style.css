@@ -196,3 +196,8 @@ button {
     margin-top: 15px;
     margin-bottom: 30px;
 }
+
+#cartButton {
+    font-size: 18px;
+    font-weight: bold;
+}
